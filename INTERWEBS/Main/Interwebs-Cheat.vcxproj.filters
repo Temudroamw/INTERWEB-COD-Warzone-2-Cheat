@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{72B0CD28-E801-4CBC-A44B-3682ECEE2240}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{39CB2D99-5833-42A4-B1AF-B171794939FC}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{A48430F4-B986-4E18-95DB-11160E68EA71}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="d3d9hook">
+      <UniqueIdentifier>{60E59402-8535-45ED-9737-1AEF63F8CEB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mem">
+      <UniqueIdentifier>{6B3FC85F-5B71-4495-AD22-812ACFF59051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{D8F16F1D-B038-49DF-9EB8-4488339C224F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{B076B4CB-3D0B-4F56-9083-6646240CC46B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mem.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="gh_d3d9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx9.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\SDK.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gh_d3d9.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gh_widg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
